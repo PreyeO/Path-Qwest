@@ -16,7 +16,7 @@ export const navLinks = [
 export const trustIndicators = [
   "100+ Successful Cases",
   "5+ Years Experience",
-  "Friendly, Transparent Process",
+  "Transparent Process",
 ];
 
 export const services = [
