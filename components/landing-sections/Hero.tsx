@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-12 md:py-20 overflow-hidden"
+      className="relative bg-gradient-to-br from-green-900 via-green-800 to-green-900 text-white py-12 md:py-20 overflow-hidden"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
@@ -36,15 +36,15 @@ const Hero = () => {
             <div className="flex flex-wrap gap-6 text-sm">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-5 h-5 text-green-400" />
-                <span>Licensed Immigration Consultants</span>
+                <span>100+ Successful Cases</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-5 h-5 text-green-400" />
-                <span>500+ Successful Cases</span>
+                <span>5+ Years Experience</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-5 h-5 text-green-400" />
-                <span>10+ Years Experience</span>
+                <span>Friendly, Transparent Process</span>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ const Hero = () => {
                 <span>Start Your Journey</span>
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <Button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300 font-semibold">
+              <Button className=" bg-green-900 border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-green-900 transition-all duration-300 font-semibold">
                 Learn More
               </Button>
             </div>
