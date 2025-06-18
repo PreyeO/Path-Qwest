@@ -52,7 +52,7 @@ export const services = [
     features: [
       "Visa Applications",
       "Document Review",
-      "SOP Writing",
+      "Stantement Of Purpose Writing",
       "Status Tracking",
     ],
   },
