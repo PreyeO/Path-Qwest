@@ -62,7 +62,7 @@ const Hero = () => {
             </div>
 
             {/* Success rate badge */}
-            <div className="absolute -bottom-6 lg:-right-5 -right-4 bg-rose-600 text-white p-4 rounded-xl shadow-xl">
+            <div className="absolute -bottom-6 lg:-right-5 -right-2 bg-rose-600 text-white p-4 rounded-xl shadow-xl">
               <div className="text-center">
                 <div className="text-2xl font-bold">95%</div>
                 <div className="text-sm">Success Rate</div>
