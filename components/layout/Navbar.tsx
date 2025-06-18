@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link
               key={link.href}
               href={link.href}
-              className="text-muted-foreground hover:text-green-900 transition-colors font-medium"
+              className="text-muted-foreground hover:text-rose-700 transition-colors font-medium"
             >
               {link.name}
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button className="bg-green-900 cursor-pointer text-white hover:bg-green-800 transition-colors">
+          <Button className="bg-rose-600 py-6 px-6  cursor-pointer text-white hover:bg-rose-700 transition-colors">
             Free Consultation
           </Button>
         </div>
@@ -60,12 +60,12 @@ const Navbar = () => {
                   key={link.href}
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="text-base font-medium text-muted-foreground hover:text-green-900"
+                  className="text-base font-medium text-muted-foreground hover:text-rose-800"
                 >
                   {link.name}
                 </Link>
               ))}
-              <Button className="bg-green-900 cursor-pointer text-white hover:bg-green-800 w-full mt-4">
+              <Button className="bg-rose-600 cursor-pointer text-white hover:bg-rose-700 w-full mt-4 py-6 px-4 transition-colors">
                 Free Consultation
               </Button>
             </nav>
